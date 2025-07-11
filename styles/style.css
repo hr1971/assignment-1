@@ -145,19 +145,21 @@ nav {
 }
 .form-section label{
     display: block;
-    
-
 }
-input[type="text"], main input[type="email"],main textarea{
-    height: 64px;
+input[type="text"],input[type="email"]{
+    width: 100%;
+    height: 70px;
     border-radius: 5px;
     background-color: white;
-    display: block;
-    width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-
 }
+main textarea{
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
 .btn-touch{
     background-color: #4E47FF;
      color: white;
@@ -166,5 +168,27 @@ input[type="text"], main input[type="email"],main textarea{
     border-radius: 5px;
      height: 40px;
      font-weight: 600;
-     margin-left: 25px;
+     
+}
+.footer-section{
+    /* border: 1px solid; */
+    margin: auto;
+    width: 530px;
+    height: 230px;
+    text-align: center;
+}
+.footer-link a{
+    
+    /* justify-content: space-between; */
+    text-decoration: none;
+    color: #908ead;
+    gap: 10px;
+     /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding-left:  20px;
+}
+.footer-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 40px;
 }
