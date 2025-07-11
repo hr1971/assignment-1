@@ -97,7 +97,7 @@ nav {
     text-align: center;
     justify-content: center;
     justify-content: space-around;
-    border: 1px solid;
+   margin-top: 100px;
     
     
 }
@@ -110,4 +110,8 @@ nav {
 .user-color{
     color: #908ead;
     
+}
+.h-1{
+    margin: 0px;
+    padding: 0px;
 }
