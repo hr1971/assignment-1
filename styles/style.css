@@ -126,3 +126,45 @@ nav {
 .touch{
     text-align: center;
 }
+.touch-section{
+    /* border: 1px solid; */
+    width: 1140px;
+    height: 632px;
+    gap: 150px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+}
+.touch-title{
+    font-weight: 600;
+    font-size: 50px;
+    width: 528px;
+    height: 232px;
+}
+.form-section label{
+    display: block;
+    
+
+}
+input[type="text"], main input[type="email"],main textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+
+}
+.btn-touch{
+    background-color: #4E47FF;
+     color: white;
+    font-size: 13px;
+    width: 100%;
+    border-radius: 5px;
+     height: 40px;
+     font-weight: 600;
+     margin-left: 25px;
+}
