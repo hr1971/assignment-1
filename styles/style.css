@@ -12,7 +12,7 @@ nav {
     width: 1140px;
     height: 60px;
     margin: auto;
-    border: 1px solid;
+   
 }
 .btn-sign{
      background-color: #4E47FF;
@@ -20,16 +20,15 @@ nav {
     font-size: 13px;
    width: 100px;
    height: 40px;
-    border: none;
     border-radius: 5px;
     font-weight: 600;
 }
 .banner{
-    border: 1px solid;
+    
     width: 400px;
     height: 200px;
     margin: auto;
-    margin-top: 158px;
+    margin-top: 140px;
     text-align: center;
 }
 .banner-title{
@@ -47,14 +46,13 @@ nav {
     font-size: 13px;
    width: 100px;
    height: 40px;
-    border: none;
     border-radius: 5px;
     font-weight: 600;
     margin-top: 37px;
     
 }
 .actions{
-    border: 1px solid;
+   
     width: 1120px;
     height: 330px;
     margin: auto;
@@ -72,4 +70,44 @@ nav {
     width: 517px;
     height: 203px;
     margin-top: 62px;
+}
+.btn-lunch{
+     background-color: #4E47FF;
+     color: white;
+    font-size: 13px;
+    width: 200px;
+    border-radius: 5px;
+     height: 40px;
+     font-weight: 600;
+    }
+
+.bg-color{
+    background-color:  #e6e6f2;
+    border-radius: 20px;
+}
+.productive{
+    width: 1140px;
+    height: 206px;
+    margin: auto;
+    padding: 50px 80px 50px 80px ;
+    margin-top: 110px;
+}
+.user{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid;
+    
+    
+}
+.number-bg{
+    color: #4E47FF;
+    
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.user-color{
+    color: #908ead;
+    
 }
