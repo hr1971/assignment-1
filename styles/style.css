@@ -56,7 +56,7 @@ nav {
     width: 1120px;
     height: 330px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -71,7 +71,7 @@ nav {
     height: 203px;
     margin-top: 62px;
 }
-.btn-lunch{
+.btn-lunch {
      background-color: #4E47FF;
      color: white;
     font-size: 13px;
@@ -79,6 +79,7 @@ nav {
     border-radius: 5px;
      height: 40px;
      font-weight: 600;
+     
     }
 
 .bg-color{
@@ -87,17 +88,17 @@ nav {
 }
 .productive{
     width: 1140px;
-    height: 206px;
+    height: 180px;
     margin: auto;
-    padding: 50px 80px 50px 80px ;
-    margin-top: 110px;
+    padding:  80px 50px 80px ;
+    margin-top: 100px;
 }
 .user{
     display: flex;
     text-align: center;
     justify-content: center;
     justify-content: space-around;
-   margin-top: 100px;
+   margin-top: 50px;
     
     
 }
@@ -191,4 +192,11 @@ main textarea{
     color: #4E47FF;
     font-weight: bold;
     font-size: 40px;
+}
+
+
+
+.mybutton:hover {
+  background-color: rgb(11, 209, 126);
+  
 }
